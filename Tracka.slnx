@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/Tracka.Domain/Tracka.Domain.csproj" />
+        <Project Path="src/Tracka.Application/Tracka.Application.csproj" />
+        <Project Path="src/Tracka.EntityFrameworkCore/Tracka.EntityFrameworkCore.csproj" />
+        <Project Path="src/Tracka.Domain.Shared/Tracka.Domain.Shared.csproj" />
+        <Project Path="src/Tracka.Application.Contracts/Tracka.Application.Contracts.csproj" />
+        <Project Path="src/Tracka.HttpApi/Tracka.HttpApi.csproj" />
+        <Project Path="src/Tracka.HttpApi.Client/Tracka.HttpApi.Client.csproj" />
+        <Project Path="src/Tracka.DbMigrator/Tracka.DbMigrator.csproj" />
+        <Project Path="src/Tracka.HttpApi.Host/Tracka.HttpApi.Host.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/Tracka.Application.Tests/Tracka.Application.Tests.csproj" />
+        <Project Path="test/Tracka.EntityFrameworkCore.Tests/Tracka.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/Tracka.TestBase/Tracka.TestBase.csproj" />
+        <Project Path="test/Tracka.Domain.Tests/Tracka.Domain.Tests.csproj" />
+        <Project Path="test/Tracka.HttpApi.Client.ConsoleTestApp/Tracka.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>
